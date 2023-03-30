@@ -17,13 +17,20 @@ class newmatematika {
 
 class newmatematika2 extends newmatematika {
     // tidak memiliki variabel/method 
+    // anak dari newmatematika
 }
+
+class newmatematika3 extends newmatematika2 {
+    // tidak memiliki variabel/method 
+    // cucu dari newmatematika
+}
+
 
 // membuat kelas untuk implementasi
 public class appmat_turunan {
     public static void main(String[] args) {
         // memanggil objek turunan
-        newmatematika2 objmat = new newmatematika2();
+        newmatematika3 objmat = new newmatematika3();
 
         // menggunakan fungsi/method melalui objeknya
         // nama_objek.nama_fungsi()
