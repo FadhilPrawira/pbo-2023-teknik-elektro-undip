@@ -30,6 +30,37 @@ class matematika {
 } // akhir dari kelas matematika
 
 
+class matematika2 {
+    /*
+     * fungsi:
+     * -perkalian -> memiliki luaran integer, dengan input a dan b, luaran c
+     * -penjumlahan -> tidak luaran nilai, input a dan b
+     * -pembagian -> memiliki luaran return, input a dan b
+     * -pengurangan -> tidak memiliki luaran nilai, input a dan b
+     */
+
+    int perkalian(int a, int b) {
+        int c = a*b;
+        return c;
+    }
+
+    void penjumlahan(int a, int b) {
+        int c = a+b;
+        System.out.println("hasil penjumlahan = " + c);
+    }
+
+    float pembagian(float a, float b) {
+        float c = a/b;
+        return c;
+    }
+
+    void pengurangan(int a, int b) {
+        int c = a-b;
+        System.out.println("hasil pengurangan = " + c);
+    }
+
+} // akhir dari kelas matematika
+
 
 // membuat kelas untuk implementasi
 public class appmat {
@@ -66,7 +97,7 @@ public class appmat {
         
         // membuat objek dari kelas matematika
         // nama_class nama_objek = new nama_class();
-        matematika objmat2 = new matematika();
+        matematika2 objmat2 = new matematika2();
         
         // menggunakan fungsi/method melalui objeknya
         // nama_objek.nama_fungsi()

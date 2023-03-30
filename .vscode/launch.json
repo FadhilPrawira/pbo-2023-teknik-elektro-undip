@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "appmat_turunan",
+            "request": "launch",
+            "mainClass": "appmat_turunan",
+            "projectName": "pbo_4e9a6fe5"
+        },
+        {
+            "type": "java",
             "name": "Appmat",
             "request": "launch",
             "mainClass": "Appmat",
