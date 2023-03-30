@@ -1,0 +1,27 @@
+class namaclass {
+    var1;
+    var2;
+    ...
+
+    method1(input){
+        //detail method
+    }
+    
+}
+
+contoh:
+-method/fungsi
+
+    jenisTipeLuaran namaFungsi(input) {
+        //detail dari fungsi
+    }
+
+jenis-jenis luaran:
+1. berbentuk nilai (return value), bisa di-input-kan ke fungsi lain. contoh: int, float, char
+2. berbentuk tampilan/eksekusi. contoh: void
+
+pemrograman objek:
+karakteristik pemrograman objek:
+- inheritance
+- encapsulation
+- polymorphism

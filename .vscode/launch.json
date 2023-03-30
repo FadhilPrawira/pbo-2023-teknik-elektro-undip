@@ -1,0 +1,43 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Appmat",
+            "request": "launch",
+            "mainClass": "Appmat",
+            "projectName": "pbo_4e9a6fe5"
+        },
+        {
+            "type": "java",
+            "name": "appmat",
+            "request": "launch",
+            "mainClass": "appmat",
+            "projectName": "pbo_4e9a6fe5"
+        },
+        {
+            "type": "java",
+            "name": "array",
+            "request": "launch",
+            "mainClass": "array",
+            "projectName": "pbo_4e9a6fe5"
+        },
+        {
+            "type": "java",
+            "name": "perulangan",
+            "request": "launch",
+            "mainClass": "perulangan",
+            "projectName": "pbo_4e9a6fe5"
+        },
+        {
+            "type": "java",
+            "name": "percabangan",
+            "request": "launch",
+            "mainClass": "percabangan",
+            "projectName": "pbo_4e9a6fe5"
+        }
+    ]
+}
