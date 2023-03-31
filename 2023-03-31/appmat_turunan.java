@@ -28,7 +28,7 @@
  */
 
 class newmatematika {
-    protected int perkalian(int a, int b) {
+    int perkalian(int a, int b) {
         int c = a*b;
         return c;
     }
@@ -44,6 +44,10 @@ class newmatematika2 extends newmatematika {
     void penjumlahan(int a, int b, int c) {
         int d = a+b+c;
         System.out.println("hasil penjumlahan 3 variabel = " + d);
+    }
+
+    int perkalian(int a, int b) {
+        return 2*a*b;
     }
 }
 
