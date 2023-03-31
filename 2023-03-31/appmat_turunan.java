@@ -16,10 +16,16 @@
  * Polymorphisme:
  * -overloading: 2 buah method/fungsi memiliki nama yang sama tapi argumentnya beda
  * 
+ * TUGAS
+ * Membuat class induk yang memiliki 2 fungsi. Satu fungsi public dan tidak return value, satu lainnya protected dan memiliki return value
+ * Membuat class anak yang memiliki 2 fungsi (satu fungsi berbeda dari class induk, satu fungsi lainnya memiliki nama yang sama dengan fungsi di class induk)
+ * Membuat class cucu yang tidak memiliki fungsi
+ * 
+ * Jalankan semua fungsi dari objek cucu
  */
 
 class newmatematika {
-    int perkalian(int a, int b) {
+    protected int perkalian(int a, int b) {
         int c = a*b;
         return c;
     }
@@ -32,6 +38,10 @@ class newmatematika {
 class newmatematika2 extends newmatematika {
     // tidak memiliki variabel/method 
     // anak dari newmatematika
+    void penjumlahan(int a, int b, int c) {
+        int d = a+b+c;
+        System.out.println("hasil penjumlahan 3 variabel = " + d);
+    }
 }
 
 class newmatematika3 extends newmatematika2 {
@@ -61,6 +71,7 @@ class appmat_turunan {
         System.out.println("hasil perkalian "+ bil1 + " dan "+ bil2 + " adalah " + hasil_kali_obj);
 
         // penjumlahan
-        objmat.penjumlahan(hasil_kali_obj, bil2);
+        objmat.penjumlahan(20, 40);
+        objmat.penjumlahan(hasil_kali_obj,20, 40);
     }
 }
