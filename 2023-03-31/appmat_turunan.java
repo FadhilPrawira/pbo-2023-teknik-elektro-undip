@@ -22,6 +22,9 @@
  * Membuat class cucu yang tidak memiliki fungsi
  * 
  * Jalankan semua fungsi dari objek cucu
+ * 
+ * OVERRIDING: ketika di class anak (sub class) memiliki method yang sama dengan yang ada di induk (super class)/
+ * Method yang di anak akan mengambil alih (override) method di induk.
  */
 
 class newmatematika {
