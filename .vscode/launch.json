@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "tugas_1",
+            "request": "launch",
+            "mainClass": "tugas_1",
+            "projectName": "pbo_4e9a6fe5"
+        },
+        {
+            "type": "java",
+            "name": "tugas_2",
+            "request": "launch",
+            "mainClass": "tugas_2",
+            "projectName": "pbo_4e9a6fe5"
+        },
+        {
+            "type": "java",
+            "name": "perpustakaan",
+            "request": "launch",
+            "mainClass": "perpustakaan",
+            "projectName": "pbo_4e9a6fe5"
+        },
+        {
+            "type": "java",
             "name": "HelloWorld",
             "request": "launch",
             "mainClass": "HelloWorld",
